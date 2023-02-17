@@ -23,6 +23,9 @@ public class ModBlocks {
     public static final Block ENRISIUM_BLOCK = registerBlock("enrisium_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()),
             ModItemGroup.RANDOM_BLOCKS);
+    public static final Block TABLE_BLOCK = registerBlock("table_block",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4f)),
+            ModItemGroup.RANDOM_BLOCKS);
     public static final Block ENRISIUM_ORE = registerBlock("enrisium_ore",
             new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
                     UniformIntProvider.create(10, 100)), ModItemGroup.RANDOM_BLOCKS);

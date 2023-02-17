@@ -10,6 +10,7 @@
   "block.random.jumper_block": "Jumper Block",
   "block.random.enrisium_nether_ore": "Nether Enrisium Ore",
   "block.random.enrisium_end_ore": "End Enrisium Ore",
+  "block.random.table_block": "Table",
 
   "itemGroup.random.random_items": "Random Items",
   "itemGroup.random.random_blocks": "Random Blocks",
