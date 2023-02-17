@@ -1,0 +1,23 @@
+{
+  "item.random.raw_enrisium": "Raw Enrisium",
+  "item.random.enrisium": "Enrisium",
+  "item.random.eight_ball": "Eight Ball",
+  "item.random.save_me": "Save Me",
+
+  "block.random.enrisium_ore": "Enrisium Ore",
+  "block.random.enrisium_block": "Block of Enrisium",
+  "block.random.enrisium_deepslate_ore": "Enrisium Deepslate Ore",
+  "block.random.jumper_block": "Jumper Block",
+  "block.random.enrisium_nether_ore": "Nether Enrisium Ore",
+  "block.random.enrisium_end_ore": "End Enrisium Ore",
+
+  "itemGroup.random.random_items": "Random Items",
+  "itemGroup.random.random_blocks": "Random Blocks",
+
+  "key.category.random": "Random!",
+  "key.random.drink_water": "Drink Water",
+  "key.random.effect": "OP Effects",
+
+  "message.random.drink_water": "DRANK WATER",
+  "message.random.nowater": "No Water Nearby"
+}

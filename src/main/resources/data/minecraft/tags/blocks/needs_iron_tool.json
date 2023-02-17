@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "random:enrisium_block",
+    "random:enrisium_ore",
+    "random:enrisium_deepslate_ore",
+    "random:enrisium_nether_ore",
+    "random:enrisium_end_ore"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "random:enrisium_deepslate_ore"
+  },
+  "result": "random:enrisium",
+  "group": "enrisium",
+  "experience": 60,
+  "cookingtime": 300
+}

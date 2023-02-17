@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "@#@",
+    "# #",
+    "@#@"
+  ],
+  "key": {
+    "#": {
+      "item": "random:enrisium"
+    },
+    "@": {
+      "item": "random:raw_enrisium"
+    }
+  },
+  "result": {
+    "item": "random:jumper_block"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "random:enrisium_nether_ore"
+  },
+  "result": "random:enrisium",
+  "experience": 50,
+  "cookingtime": 300,
+  "group": "enrisium"
+}

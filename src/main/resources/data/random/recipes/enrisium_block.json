@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "random:enrisium"
+    }
+  },
+  "result": {
+    "item": "random:enrisium_block"
+  }
+}
