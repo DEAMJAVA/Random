@@ -1,0 +1,6 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "random:block/gapple_crop/2"
+  }
+}

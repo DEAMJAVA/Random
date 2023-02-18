@@ -1,0 +1,12 @@
+
+{
+  "variants": {
+    "age=0": { "model": "random:block/gapple_crop/0"},
+    "age=1": { "model": "random:block/gapple_crop/1"},
+    "age=2": { "model": "random:block/gapple_crop/2"},
+    "age=3": { "model": "random:block/gapple_crop/3"},
+    "age=4": { "model": "random:block/gapple_crop/4"},
+    "age=5": { "model": "random:block/gapple_crop/5"},
+    "age=6": { "model": "random:block/gapple_crop/6"}
+  }
+}
