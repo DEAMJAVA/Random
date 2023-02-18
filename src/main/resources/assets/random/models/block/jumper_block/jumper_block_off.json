@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "random:block/jumper_block/jumper_block_off"
+  }
+}
