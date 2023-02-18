@@ -22,6 +22,6 @@ public class random implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
-		ModMessages.registerC2SPackets();
+		//ModMessages.registerC2SPackets();
 	}
 }
