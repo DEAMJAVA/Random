@@ -24,7 +24,7 @@ public class ModItems {
             new SaverItem(new FabricItemSettings().group(ModItemGroup.RANDOM_ITEMS).maxCount(1)));
     public static final Item GAPPLE_SEEDS = registerItem("gapple_seeds",
             new AliasedBlockItem(ModBlocks.GAPPLE_CROP,
-                    new FabricItemSettings()));
+                    new FabricItemSettings().group(ModItemGroup.RANDOM_ITEMS)));
     public static final Item GAPPLE = registerItem("gapple",
             new Item(new FabricItemSettings().group(ModItemGroup.RANDOM_ITEMS).food(
                     new FoodComponent.Builder().hunger(10).saturationModifier(10f).alwaysEdible()
