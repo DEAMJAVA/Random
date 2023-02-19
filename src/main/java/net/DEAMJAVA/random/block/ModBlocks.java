@@ -61,7 +61,7 @@ public class ModBlocks {
     }
     private static Item registerBlockItem(String name, Block block, ItemGroup tab) {
         return Registry.register(Registry.ITEM, new Identifier(random.MOD_ID, name),
-                new BlockItem(block, new FabricItemSettings().group(tab).maxCount(-1)));
+                new BlockItem(block, new FabricItemSettings().group(tab)));
     }
     public static void registerModBlocks() {
         random.LOGGER.debug("Registering Mod BLocks for " + random.MOD_ID);

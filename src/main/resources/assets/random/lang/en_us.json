@@ -5,6 +5,8 @@
   "item.random.save_me": "Save Me",
   "item.random.gapple_seeds": "Gapple Seeds",
   "item.random.gapple": "Gapple",
+  "item.random.enrisium_sword": "Enrisium Sword",
+  "item.random.enrisium_pickaxe": "Enrisium Pickaxe",
 
   "block.random.enrisium_ore": "Enrisium Ore",
   "block.random.enrisium_block": "Block of Enrisium",
@@ -17,6 +19,7 @@
 
   "itemGroup.random.random_items": "Random Items",
   "itemGroup.random.random_blocks": "Random Blocks",
+  "itemGroup.random.random_tools": "Random Tools",
 
   "key.category.random": "Random!",
   "key.random.drink_water": "Drink Water",

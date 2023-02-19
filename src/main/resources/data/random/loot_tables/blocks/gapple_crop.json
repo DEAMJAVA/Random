@@ -10,19 +10,6 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "random:gapple",
-              "conditions": [
-                {
-                  "condition": "minecraft:block_state_property",
-                  "block": "random:gapple_crop",
-                  "properties": {
-                    "age": "6"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
               "name": "minecraft:enchanted_golden_apple",
               "conditions": [
                 {
@@ -36,7 +23,20 @@
             },
             {
               "type": "minecraft:item",
-              "name": "random:gapple"
+              "name": "random:gapple_seeds"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:enchanted_golden_apple",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "random:gapple_crop",
+                  "properties": {
+                    "age": "6"
+                  }
+                }
+              ]
             }
           ]
         }
