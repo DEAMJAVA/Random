@@ -1,4 +1,4 @@
-package net.DEAMJAVA.random.item.custom;
+package net.DEAMJAVA.random.item;
 
 import net.DEAMJAVA.random.item.ModItems;
 import net.minecraft.item.ItemConvertible;
@@ -11,7 +11,7 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMateriel implements ToolMaterial {
-    ENRISIUM(10, 3500, 10.0F, 5.0F, 25, () -> {
+    ENRISIUM(10, 3500, 11.9F, 4.0F, 25, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{ModItems.ENRISIUM});
     });
 

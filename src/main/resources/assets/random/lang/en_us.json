@@ -11,6 +11,11 @@
   "item.random.enrisium_shovel": "Enrisium Shovel",
   "item.random.enrisium_hoe": "Enrisium Hoe",
 
+  "item.random.enrisium_helmet": "Enrisium Helmet",
+  "item.random.enrisium_chestplate": "Enrisium Chestplate",
+  "item.random.enrisium_leggings": "Enrisium Leggings",
+  "item.random.enrisium_boots": "Enrisium Boots",
+
   "block.random.enrisium_ore": "Enrisium Ore",
   "block.random.enrisium_block": "Block of Enrisium",
   "block.random.enrisium_deepslate_ore": "Enrisium Deepslate Ore",
@@ -23,6 +28,8 @@
   "itemGroup.random.random_items": "Random Items",
   "itemGroup.random.random_blocks": "Random Blocks",
   "itemGroup.random.random_tools": "Random Tools",
+  "itemGroup.random.random_foods": "Random Foods",
+  "itemGroup.random.random_seeds": "Random Seeds",
 
   "key.category.random": "Random!",
   "key.random.drink_water": "Drink Water",

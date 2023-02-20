@@ -14,5 +14,9 @@ public class ModItemGroup {
             new Identifier(random.MOD_ID, "random_blocks"), () -> new ItemStack(ModBlocks.ENRISIUM_ORE));
     public static final ItemGroup RANDOM_TOOLS = FabricItemGroupBuilder.build(
             new Identifier(random.MOD_ID, "random_tools"), () -> new ItemStack(ModItems.ENRISIUM_SWORD));
+    public static final ItemGroup RANDOM_FOODS = FabricItemGroupBuilder.build(
+            new Identifier(random.MOD_ID, "random_foods"), () -> new ItemStack(ModItems.GAPPLE));
+    public static final ItemGroup RANDOM_SEEDS = FabricItemGroupBuilder.build(
+            new Identifier(random.MOD_ID, "random_seeds"), () -> new ItemStack(ModItems.GAPPLE_SEEDS));
 
 }
