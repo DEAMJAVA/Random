@@ -1,9 +1,7 @@
 package net.DEAMJAVA.random.item;
 
 import net.DEAMJAVA.random.block.ModBlocks;
-import net.DEAMJAVA.random.item.custom.EightBallItem;
-import net.DEAMJAVA.random.item.custom.ModSwordItem;
-import net.DEAMJAVA.random.item.custom.SaverItem;
+import net.DEAMJAVA.random.item.custom.*;
 import net.DEAMJAVA.random.random;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
@@ -28,10 +26,19 @@ public class ModItems {
                     new FoodComponent.Builder().hunger(10).saturationModifier(10f).alwaysEdible()
                             .build())));
     public static final Item ENRISIUM_SWORD = registerItem("enrisium_sword",
-            new SwordItem(ToolMaterials.NETHERITE, 10, 11,
+            new SwordItem(ModToolMateriel.ENRISIUM, 10, 11f,
                     new FabricItemSettings().group(ModItemGroup.RANDOM_TOOLS).maxCount(1)));
     public static final Item ENRISIUM_PICKAXE = registerItem("enrisium_pickaxe",
-            new PickaxeItem(ToolMaterials.NETHERITE, 10, 11,
+            new ModPickaxeItem(ModToolMateriel.ENRISIUM, 10, 11f,
+                    new FabricItemSettings().group(ModItemGroup.RANDOM_TOOLS).maxCount(1)));
+    public static final Item ENRISIUM_AXE = registerItem("enrisium_axe",
+            new ModAxeItem(ModToolMateriel.ENRISIUM, 10, 11f,
+                    new FabricItemSettings().group(ModItemGroup.RANDOM_TOOLS).maxCount(1)));
+    public static final Item ENRISIUM_SHOVEL = registerItem("enrisium_shovel",
+            new ShovelItem(ModToolMateriel.ENRISIUM, 10, 11f,
+                    new FabricItemSettings().group(ModItemGroup.RANDOM_TOOLS).maxCount(1)));
+    public static final Item ENRISIUM_HOE = registerItem("enrisium_hoe",
+            new ModHoeItem(ModToolMateriel.ENRISIUM, 10, -1f,
                     new FabricItemSettings().group(ModItemGroup.RANDOM_TOOLS).maxCount(1)));
 
 

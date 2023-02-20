@@ -27,7 +27,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:enchanted_golden_apple",
+              "name": "random:gapple",
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
