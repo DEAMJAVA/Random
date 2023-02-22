@@ -12,7 +12,7 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModArmorMateriel implements ArmorMaterial {
-    ENRISIUM("enrisium", 15, new int[]{7, 7, 7, 7}, 20,
+    ENRISIUM("enrisium", 30, new int[]{7, 7, 7, 7}, 20,
             SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.5F, 0.5F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{ModItems.ENRISIUM});
     });

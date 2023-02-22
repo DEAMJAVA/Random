@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "random:crown"
+    },
+    {
+      "item": "random:enrisium_helmet"
+    }
+  ],
+  "result": {
+    "item": "random:enrisium_crown",
+    "count": 1
+  }
+}

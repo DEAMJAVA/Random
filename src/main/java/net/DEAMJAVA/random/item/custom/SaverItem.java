@@ -23,6 +23,7 @@ public class SaverItem extends Item {
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
+        ItemStack itemStack = user.getStackInHand(hand);
         if (!world.isClient() && hand == Hand.MAIN_HAND) {
             user.addStatusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 3600, 10));
             user.addStatusEffect(new StatusEffectInstance(StatusEffects.CONDUIT_POWER, 3600, 10));

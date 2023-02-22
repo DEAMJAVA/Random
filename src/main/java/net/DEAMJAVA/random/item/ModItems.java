@@ -3,6 +3,7 @@ package net.DEAMJAVA.random.item;
 import net.DEAMJAVA.random.block.ModBlocks;
 import net.DEAMJAVA.random.item.custom.*;
 import net.DEAMJAVA.random.random;
+import net.fabricmc.fabric.api.item.v1.EquipmentSlotProvider;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -55,6 +56,17 @@ public class ModItems {
     public static final Item ENRISIUM_BOOTS = registerItem("enrisium_boots",
             new ArmorItem(ModArmorMateriel.ENRISIUM, EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroup.RANDOM_TOOLS).maxCount(1)));
+    public static final Item CROWN = registerItem("crown",
+            new CrownItem(new FabricItemSettings().equipmentSlot(new EquipmentSlotProvider() {
+                @Override
+                public EquipmentSlot getPreferredEquipmentSlot(ItemStack stack) {
+
+                    return EquipmentSlot.HEAD;
+                }
+            }).maxCount(1).group(ModItemGroup.RANDOM_ITEMS).fireproof()));
+    public static final Item ENRISIUM_CROWN = registerItem("enrisium_crown",
+            new EnrisiumCrownItem(ModArmorMateriel.ENRISIUM , EquipmentSlot.HEAD,
+                    new FabricItemSettings(), 35));
 
 
 

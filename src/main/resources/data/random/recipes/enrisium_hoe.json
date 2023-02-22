@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " @ ",
+    " @ "
+  ],
+  "key": {
+    "#": {
+      "item": "random:enrisium"
+    },
+    "@": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "random:enrisium_hoe"
+  }
+}
