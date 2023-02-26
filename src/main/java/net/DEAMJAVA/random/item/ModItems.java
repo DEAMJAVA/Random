@@ -13,13 +13,12 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
-
+    public static final Item ENRISIUM_INGOT = registerItem("enrisium_ingot",
+            new Item(new FabricItemSettings().group(ModItemGroup.RANDOM_ITEMS)));
     public static final Item RAW_ENRISIUM = registerItem("raw_enrisium",
             new Item(new FabricItemSettings().group(ModItemGroup.RANDOM_ITEMS)));
-    public static final Item ENRISIUM = registerItem("enrisium",
-            new Item(new FabricItemSettings().group(ModItemGroup.RANDOM_ITEMS)));
-    public static final Item EIGHT_BALL = registerItem("eight_ball",
-            new EightBallItem(new FabricItemSettings().group(ModItemGroup.RANDOM_ITEMS).maxCount(1)));
+    //public static final Item EIGHT_BALL = registerItem("eight_ball",
+      //      new EightBallItem(new FabricItemSettings().group(ModItemGroup.RANDOM_ITEMS).maxCount(1)));
     public static final Item SAVE_ME = registerItem("save_me",
             new SaverItem(new FabricItemSettings().group(ModItemGroup.RANDOM_ITEMS).maxCount(1)));
     public static final Item GAPPLE_SEEDS = registerItem("gapple_seeds",
@@ -30,19 +29,19 @@ public class ModItems {
                     new FoodComponent.Builder().hunger(6).saturationModifier(6.9f).statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 12000, 4 ), 1.0f).statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 12000, 4 ), 1.0f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 12000, 4 ), 1.0f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 12000, 4 ), 1.0f).statusEffect(new StatusEffectInstance(StatusEffects.INSTANT_HEALTH, 12000, 4 ), 1.0f).statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 12000, 4 ), 1.0f).statusEffect(new StatusEffectInstance(StatusEffects.HASTE, 12000, 20 ), 1.0f).statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 12000, 3 ), 1.0f).alwaysEdible()
                             .build())));
     public static final Item ENRISIUM_SWORD = registerItem("enrisium_sword",
-            new SwordItem(ModToolMateriel.ENRISIUM, 10, 11f,
+            new SwordItem(ModToolMateriel.ENRISIUM, 5, 10f,
                     new FabricItemSettings().group(ModItemGroup.RANDOM_TOOLS).maxCount(1)));
     public static final Item ENRISIUM_PICKAXE = registerItem("enrisium_pickaxe",
-            new ModPickaxeItem(ModToolMateriel.ENRISIUM, 10, 11f,
+            new ModPickaxeItem(ModToolMateriel.ENRISIUM, 2, 12f,
                     new FabricItemSettings().group(ModItemGroup.RANDOM_TOOLS).maxCount(1)));
     public static final Item ENRISIUM_AXE = registerItem("enrisium_axe",
-            new ModAxeItem(ModToolMateriel.ENRISIUM, 10, 11f,
+            new ModAxeItem(ModToolMateriel.ENRISIUM, 12, 5f,
                     new FabricItemSettings().group(ModItemGroup.RANDOM_TOOLS).maxCount(1)));
     public static final Item ENRISIUM_SHOVEL = registerItem("enrisium_shovel",
-            new ShovelItem(ModToolMateriel.ENRISIUM, 10, 11f,
+            new ShovelItem(ModToolMateriel.ENRISIUM, 5, 11f,
                     new FabricItemSettings().group(ModItemGroup.RANDOM_TOOLS).maxCount(1)));
     public static final Item ENRISIUM_HOE = registerItem("enrisium_hoe",
-            new ModHoeItem(ModToolMateriel.ENRISIUM, 10, -1f,
+            new ModHoeItem(ModToolMateriel.ENRISIUM, 5, 11f,
                     new FabricItemSettings().group(ModItemGroup.RANDOM_TOOLS).maxCount(1)));
     public static final Item ENRISIUM_HELMET = registerItem("enrisium_helmet",
             new ArmorItem(ModArmorMateriel.ENRISIUM, EquipmentSlot.HEAD,

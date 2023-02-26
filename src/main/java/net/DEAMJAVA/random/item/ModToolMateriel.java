@@ -12,7 +12,7 @@ import java.util.function.Supplier;
 
 public enum ModToolMateriel implements ToolMaterial {
     ENRISIUM(10, 3500, 11.9F, 4.0F, 25, () -> {
-        return Ingredient.ofItems(new ItemConvertible[]{ModItems.ENRISIUM});
+        return Ingredient.ofItems(new ItemConvertible[]{ModItems.ENRISIUM_INGOT});
     });
 
     private final int miningLevel;

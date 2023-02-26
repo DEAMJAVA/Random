@@ -21,20 +21,20 @@ public class ModLootTableModifiers {
 
         LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {
 
-            if (GRASS_BLOCK_ID.equals(id)) {
-                LootPool.Builder poolBuilder = LootPool.builder()
-                        .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.35f)) // Drops 35% of the time
-                        .with(ItemEntry.builder(ModItems.EIGHT_BALL))
-                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 2.0f)).build());
-                tableBuilder.pool(poolBuilder.build());
+            //if (GRASS_BLOCK_ID.equals(id)) {
+              //  LootPool.Builder poolBuilder = LootPool.builder()
+                //        .rolls(ConstantLootNumberProvider.create(1))
+                  //      .conditionally(RandomChanceLootCondition.builder(0.35f)) // Drops 35% of the time
+                    //    .with(ItemEntry.builder(ModItems.SAVE_ME))
+                      //  .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 2.0f)).build());
+                //tableBuilder.pool(poolBuilder.build());
 
-            }
+            //}
             if (IGLOO_STRUCTURE_CHEST_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.35f)) // Drops 35% of the time
-                        .with(ItemEntry.builder(ModItems.EIGHT_BALL))
+                        .with(ItemEntry.builder(ModItems.ENRISIUM_INGOT))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 2.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
 

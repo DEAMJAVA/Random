@@ -3,7 +3,7 @@
   "ingredient": {
     "item": "random:enrisium_end_ore"
   },
-  "result": "random:enrisium",
+  "result": "random:enrisium_ingot",
   "experience": 50,
   "cookingtime": 300,
   "group": "enrisium"
