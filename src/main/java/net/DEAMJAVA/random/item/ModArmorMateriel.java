@@ -15,6 +15,10 @@ public enum ModArmorMateriel implements ArmorMaterial {
     ENRISIUM("enrisium", 30, new int[]{10, 10, 10, 10}, 20,
             SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.5F, 0.5F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{ModItems.ENRISIUM_INGOT});
+    }),
+    WITHERITE("witherite", 34, new int[]{14, 14, 14, 14}, 24,
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.9F, 0.9F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{ModItems.WITHERITE_INGOT});
     });
 
     private static final int[] BASE_DURABILITY = new int[]{13, 15, 16, 11};

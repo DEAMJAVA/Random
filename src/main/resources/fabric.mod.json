@@ -44,7 +44,8 @@
     "modmenu": {
       "links": {
         "modmenu.youtube": "https://youtube.com/@DEAMJAVA",
-        "modmenu.source": "https://github.com/DEAMJAVA/random"
+        "modmenu.source": "https://github.com/DEAMJAVA/random",
+        "modmenu.home": "https://github.com/DEAMJAVA"
       }
     }
  }

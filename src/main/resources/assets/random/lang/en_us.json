@@ -10,6 +10,13 @@
   "item.random.enrisium_axe": "Enrisium Axe",
   "item.random.enrisium_shovel": "Enrisium Shovel",
   "item.random.enrisium_hoe": "Enrisium Hoe",
+  "item.random.scyth": "Scyth",
+  "item.random.witherite_sword": "Witherite Sword",
+  "item.random.witherite_pickaxe": "Witherite Pickaxe",
+  "item.random.witherite_axe": "Witherite Axe",
+  "item.random.witherite_shovel": "Witherite Shovel",
+  "item.random.witherite_hoe": "Witherite Hoe",
+  "item.random.witherite_ingot": "Witherite Ingot",
 
   "item.random.enrisium_helmet": "Enrisium Helmet",
   "item.random.enrisium_chestplate": "Enrisium Chestplate",
@@ -17,6 +24,11 @@
   "item.random.enrisium_boots": "Enrisium Boots",
   "item.random.crown": "Crown",
   "item.random.enrisium_crown": "Enrisium Crown",
+  "item.random.witherite_helmet": "Witherite Helmet",
+  "item.random.witherite_chestplate": "Witherite Chestplate",
+  "item.random.witherite_leggings": "Witherite Leggings",
+  "item.random.witherite_boots": "Witherite Boots",
+
 
   "block.random.enrisium_ore": "Enrisium Ore",
   "block.random.enrisium_block": "Block of Enrisium",

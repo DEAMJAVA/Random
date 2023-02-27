@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_hoe"
+  },
+  "addition": {
+    "item": "random:witherite_ingot"
+  },
+  "result": {
+    "item": "random:witherite_hoe"
+  }
+}

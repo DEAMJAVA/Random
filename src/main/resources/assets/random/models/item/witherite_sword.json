@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "random:item/enrisium_shovel"
+    "layer0": "random:item/witherite_sword"
   }
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "addition": {
+    "item": "random:witherite_ingot"
+  },
+  "result": {
+    "item": "random:witherite_helmet"
+  }
+}

@@ -13,6 +13,12 @@ import java.util.function.Supplier;
 public enum ModToolMateriel implements ToolMaterial {
     ENRISIUM(10, 3500, 11.9F, 4.0F, 25, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{ModItems.ENRISIUM_INGOT});
+    }),
+    WITHERITE(11, 5000, 12.0F, 4.5F, 50, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{ModItems.WITHERITE_INGOT});
+    }),
+    SCYTH(10, 3500, 11.9F, 4.0F, 25, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{ModItems.WITHERITE_INGOT});
     });
 
     private final int miningLevel;

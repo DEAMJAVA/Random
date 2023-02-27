@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "^#1",
+    "  @",
+    "  @"
+  ],
+  "key": {
+    "#": {
+      "item": "random:enrisium_ingot"
+    },
+    "@": {
+      "item": "minecraft:stick"
+    },
+    "1": {
+      "item": "minecraft:iron"
+    },
+    "^": {
+      "item": "random:witherite_ingot"
+    }
+  },
+  "result": {
+    "item": "random:enrisium_axe"
+  }
+}
